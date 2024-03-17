@@ -1,0 +1,115 @@
+/** @format */
+
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.custom-titulo {
+  background-color: chartreuse;
+  margin: auto;
+  min-height: 150px;
+  max-width: 3000px;
+  padding-top: 50px;
+  line-height: 1em;
+  font-size: 6em;
+}
+
+nav > a {
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav > a:hover {
+  background-color: red;
+  color: black;
+  transition-duration: 2s;
+}
+
+.menu {
+  background-color: blue;
+  text-align: center;
+  margin: auto;
+}
+
+.menu {
+}
+
+.custom-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2em;
+  margin: auto;
+}
+
+.principal {
+  background-color: brown;
+  height: 20%;
+  margin: auto;
+  padding: 30px;
+  min-height: 350px;
+  max-width: 800px;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: blue;
+  padding-top: 20px;
+  margin: auto;
+
+  min-height: 0px;
+  max-width: 3000px;
+}
+
+h1 {
+  background-color: #559297;
+}
+
+body {
+  font: normal 16px Arial, Verdana, serif;
+  text-align: justify;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  background-color: #65f2ff;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+main {
+}
+
+p {
+  text-indent: 30px;
+}
+
+#dov {
+  display: flex;
+  justify-content: center;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+}
+.ic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
